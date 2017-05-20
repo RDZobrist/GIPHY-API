@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8" lang="en">
+    <!-- mobile responsivenesss -->
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" href="assets/css/reset.css">
+    <!-- minified jquery cdn -->
+    <script src="https://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script>
+    <!-- minified bootstrap theme -->
+    <link rel="stylesheet" type="text/css" href="assets/css/bsTheme.css">
+    <!-- external css stylesheet -->
+    <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+    <title>Wordsmiths and Gifs!</title>
+</head>
+
+<body>
+    <div class="jumbotron">
+        <div class="container">
+            <div class="myHeader">
+                <h1>WordSmiths</h1>
+                <span class="text-muted" id="jtronText">
+                    <div id="sometimeGone">Sometimes</div><div id="loadTimer1">someone</div><div id="loadTimer2"> opens</div><div id="loadTimer3">their</div><div id="loadTimer4"> mouth</div><div id="loadTimer5">and</div><div id="loadTimer6">you</div><div id="loadTimer7">can't</div><div id="loadTimer8">help</div><div id="loadTimer9">but</div><div id="loadTimer10">to</div><div id="loadTimer11"> be</div><div id="loadTimer12"><div id="loadTimer13"> dazzled</div><div id="loadTimer14">with</div> <div id="loadTimer15">the magic.<br></div></div></div>
+                </span>
+            </div>
+        </div>
+    </div>
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-12">
+                <div class="buttonGallery"></div>
+                <h4>Create buttons, find Gifs!: </h4>
+                <form id="btnGeneratingForm">
+                    <label for="input">Anything: </label>
+                    <input type="text" id="user-input">
+                    <br>
+                    <input type="submit" id="anotherButton" value="More buttons">
+                </form>
+            </div>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-lg-12">
+            <div id="gif-Gallery"></div>
+        </div>
+    </div>
+    <script type="text/javascript" src="assets/javascript/gifAPIapp.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,43 @@
+
+#jtronText,
+#loadTimer
+ {
+	color: peru;
+}
+
+#anotherButton  {
+	margin: 5px;
+	align-items: center;
+	border-color: peru;
+	border-style: 1px solid;
+	color: black;
+}
+.unit, 
+.gifGallery,
+#gifimg
+  {
+	margin:5px;
+	width: 150px;
+	height: 150px;
+	display: inline-block;
+}
+
+#loadTimer1,
+#loadTimer2,
+#loadTimer3,
+#loadTimer4,
+#loadTimer5,
+#loadTimer6,
+#loadTimer7,
+#loadTimer8,
+#loadTimer9,
+#loadTimer10,
+#loadTimer11,
+#loadTimer12,
+#loadTimer13,
+#loadTimer14,
+#loadTimer15{
+	display: inline-block;
+	margin: 3px;
+}
+
